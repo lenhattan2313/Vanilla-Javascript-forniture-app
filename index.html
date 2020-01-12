@@ -19,7 +19,7 @@
         <div class="nav-icon">
           <i class="fa fa-bars"></i>
         </div>
-        <img src="/image/Furniture styles.svg" atl="" />
+        <img src="/images/Furniture styles.svg" atl="" />
         <div class="cart-btn">
           <i class="fa fa-shopping-cart"></i>
           <span class="cart-items">0</span>
@@ -35,20 +35,40 @@
       </section>
       <section class="products">
         <div class="product-title">
-          <h1>Our product</h1>
+          <h2>Our product</h2>
         </div>
-        <article class="product">
-          <div class="product-center">
-            <img src="" alt"">
-            <button class="add-to-cart" data-id="1">
-              <i class="fa fa-cart-plus">Add to cart</i>
-            </button>
-          </div>
-          <h3>queen bed</h3>
-          <h4>$100.99</h4>
-        </article>
+        <div class="product-center">
+          <!-- <article class="product">
+            <div class="img-container">
+              <img class="product-img" src="./image/product-1.jpeg" alt"">
+              <button class="add-to-cart" data-id="1">
+                <i class="fa fa-cart-plus"></i>Add to cart
+              </button>
+            </div>
+            <h3>queen bed</h3>
+            <h4>$100.99</h4>
+          </article> -->
+        </div>
       </section>
+      <div class="cart-overlay">
+        <div class="cart">
+          <span class="close-cart">
+            <i class="fa fa-times-circle"></i>
+          </span>
+          <div class="your-cart">
+            <h1>Your Cart</h1>
+          </div>
+          <div class="cart-content"></div>
+          <hr />
+          <div class="cart-footer">
+            <h3>Your total: $ <span class="cart-total">0</span></h3>
+            <button class="clear-cart banner-btn">Clear cart</button>
+          </div>
+        </div>
+      </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+
     <script src="app.js"></script>
   </body>
 </html>
